@@ -9,9 +9,9 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
 <link rel="stylesheet" type="text/css" href="style.css">
-<!-- Latest compiled and minified JavaScript -->
+<!-- Latest compiled and minified JavaScript -->>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src="main.js"></script>
 <title>Rent a Pet</title>
 </head>
 <body>
@@ -28,12 +28,13 @@
 </style>
 <h1> Shelter Submission </h1>
     <div id= "post">
-    <form method = "post" name= "myForm" onsubmit="return validateForm()">
+    <form action = "putuppets.html" method = "post" name= "myForm" onsubmit="return validateForm()">
         Full Name: <input type ="text" name ="name"><br><br>
         Shelter Name: <input type ="text" name ="sname"><br><br>
-        Possible Pets: <input type = "text" name = "name"><br><br>
+        Possible Pets: <input type = "text" name = "petlist"><br><br>
         Link To Website: <input type ="text" name ="link"><br><br>
-        <input type="submit" value="Submit">
-    </form>
+       <input type="submit" value="Submit">
+        
+
     </div>
 </body>

@@ -2,6 +2,7 @@ function validateForm() {
     var name = document.forms["myForm"]["name"].value;
     var sname = document.forms["myForm"]["sname"].value;
     var link = document.forms["myForm"]["link"].value;
+    var petlist = document.forms["myForm"]["petlist"].value;
     if (name == null || name == "") {
         alert("Name must be filled out.");
         return false;
